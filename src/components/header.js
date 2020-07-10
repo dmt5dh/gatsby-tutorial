@@ -7,6 +7,7 @@ const Header = ({ siteTitle }) => (
     <div className="menu">
       <h1>{siteTitle}</h1>
       <h1><Link to="/page-2">Page 2</Link></h1>
+      <h1><Link to="/table-page">Table Page</Link></h1>
     </div>
   </header>
 )
